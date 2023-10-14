@@ -42,17 +42,38 @@
     },
     "windows": {
       "/SmartDashboard/Field": {
+        "Robot": {
+          "arrowColor": [
+            1.0,
+            0.5316454768180847,
+            0.0,
+            255.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            255.0
+          ]
+        },
         "XModules": {
           "arrowColor": [
-            0.09611687064170837,
-            0.17414122819900513,
-            0.9803921580314636,
+            1.0,
+            0.5333333611488342,
+            0.0,
             255.0
           ],
           "arrowSize": 33,
           "arrowWeight": 3.0,
+          "color": [
+            0.4130302369594574,
+            0.40805429220199585,
+            0.5063291192054749,
+            255.0
+          ],
           "style": "Hidden"
         },
+        "units": "feet",
         "window": {
           "visible": true
         }
@@ -61,6 +82,9 @@
   },
   "NetworkTables": {
     "transitory": {
+      "Shuffleboard": {
+        "open": true
+      },
       "SmartDashboard": {
         "open": true,
         "swerve": {
